@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;1,300&display=swap');
+
+body {
+  background-color: #F9F9FB;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+h1,h2,h3 {
+  color: #000646;
+  font-size: 2em;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#000646;
+  text-decoration: underline #000646;
+}
+
+.link-underline-blue {
+  color: black;
+  text-decoration: underline blue;
+}
+
+.container {
+  background-color: #F8FBFE;
+  width: 700px;
+  margin : 0 auto;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+}
+
+#button {
+  background-color: rgba(36,229,175,0.6);
+  color:#000646;
+  font-weight: bold;
+  padding: 10px;
+  margin : 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#button:hover {
+  text-decoration: none;
+  background-color: #24E5AF;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  align-items: center;
+  list-style: none;
+  margin: 0px 20px;
+  padding: 10px;
+  background-color: #F7F7F7;
+  border: 1px solid lightgray ;
+  border-radius: 10px;
+}
+
+li:hover {
+  background-color: #24E5AF;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
