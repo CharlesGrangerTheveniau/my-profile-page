@@ -105,6 +105,6 @@ li:hover {
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 300px;
+    width: 301px;
   }
 }
